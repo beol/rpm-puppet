@@ -1,0 +1,9 @@
+[laksmana_centos]
+name=laksmana_centos
+baseurl=https://packagecloud.io/laksmana/centos/el/6/$basearch
+repo_gpgcheck=1
+enabled=1
+gpgkey=https://packagecloud.io/laksmana/centos/gpgkey file:///etc/pki/rpm-gpg/RPM-GPG-KEY-laksmana
+sslverify=1
+sslcacert=/etc/pki/tls/certs/ca-bundle.crt
+metadata_expire=300
